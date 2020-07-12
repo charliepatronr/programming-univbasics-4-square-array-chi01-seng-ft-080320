@@ -5,4 +5,5 @@ def square_array(array)
   while length.times do |index|
     new_arr.push(Math.sqrt(array[index]))
   end
+  new_arr
 end
