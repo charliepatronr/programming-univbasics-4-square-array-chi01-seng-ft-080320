@@ -3,7 +3,7 @@ def square_array(array)
   new_arr =[]
   
   length.times do |index|
-    new_arr.push(Math.sqrt(array[index]))
+    new_arr.push(array[index] ))
   end
   new_arr
 end
